@@ -1,0 +1,107 @@
+html{
+    background-image:url("img/b.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    text-align: center;
+ 
+}
+
+hr{
+    border:1px solid #c0dfef;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+header div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.poza1{
+    
+    width: 600px;
+    height: 450px;
+    object-fit: scale-down;
+    position:relative;
+    right:1vw;
+    border-radius: 10%;
+}
+
+.p1{
+  padding-right:4vw;
+}
+
+.p2{
+    position:relative;
+    
+}
+.div1{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.poza2{
+    width: 450px;
+    height: 450px;
+    object-fit: scale-down;
+    border-radius: 10%;
+    
+}
+
+.poze-link1 {
+    width: 800px;
+    height: 450px;
+    object-fit: scale-down;
+    border-radius: 30% 30%;
+    margin-right: -200px;
+    
+  
+}
+.poze-link2{
+    width: 800px;
+    height: 450px;
+    object-fit: scale-down;
+    border-radius: 30% 30%;
+}
+.poze-link3 {
+    width: 800px;
+    height: 450px;
+    object-fit: scale-down;
+    border-radius: 30% 30%;
+    margin-left: -200px;
+}
+
+.poze{
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+#video{
+    display: flex;
+    justify-content:center;
+}
+.video{
+    width:500px;
+    height:500px;
+    object-fit:cover;
+    border-radius: 15%;
+   
+}
+.ppoze, .pvideo{
+    text-align: center;
+}
+
+#vide1{
+    margin-right: 50px;
+}
+#video2{
+    margin-left:50px;
+}
